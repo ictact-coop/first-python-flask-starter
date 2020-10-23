@@ -2,7 +2,7 @@
 
 처음으로 파이썬 프로그래밍 언어로 웹사이트를 만들어 보고 싶다고 해서 쉽고 간단하게 시작해봅니다.
 
-## 읽어보면 좋은 글
+## 읽어보면 좋은 글h
 
 - [파이썬](https://ko.wikipedia.org/wiki/%ED%8C%8C%EC%9D%B4%EC%8D%AC)
 - [파이썬 창시자 귀도 반 로썸에 대하여](https://blog.gyus.me/2020/about-guido-van-rossum/)
