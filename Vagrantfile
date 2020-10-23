@@ -13,7 +13,6 @@ Vagrant.configure("2") do |config|
     vb.customize [ "modifyvm", :id, "--uartmode1", "file", File::NULL ]
   end
 
-  config.vm.provision "shell", path: "provision.sh"
-  config.vm.provision "shell", path: "pyenv-pipenv.sh", privileged: false
+  config.vm.provision "shell", path: "doc/0-provision.sh", privileged: false
 
 end
