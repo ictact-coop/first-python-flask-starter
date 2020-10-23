@@ -47,6 +47,7 @@ $ cd first-python-flask-starter
 $ ls -alh
 $ cd provision 
 $ ls -alh
+$ chmod -R +x ./*
 $ sudo ./bootstrap.sh
 $ ./pyenv-pipenv.sh
 ```
