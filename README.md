@@ -2,13 +2,27 @@
 
 처음으로 파이썬 프로그래밍 언어로 웹사이트를 만들어 보고 싶다고 해서 쉽고 간단하게 시작해봅니다.
 
-## 읽어보면 좋은 글h
+## 읽어보면 좋은 글
 
 - [파이썬](https://ko.wikipedia.org/wiki/%ED%8C%8C%EC%9D%B4%EC%8D%AC)
 - [파이썬 창시자 귀도 반 로썸에 대하여](https://blog.gyus.me/2020/about-guido-van-rossum/)
-- [flask 공식 문서](https://flask-docs-kr.readthedocs.io/ko/latest/)
 - [웹을 지탱하는 기술](https://www.slideshare.net/guruguru/ss-14241987)
+- [HTML](https://developer.mozilla.org/ko/docs/Web/HTML)
+- [CSS](https://developer.mozilla.org/ko/docs/Web/CSS)
+- [JS](https://developer.mozilla.org/ko/docs/Web/JavaScript)
 - [모던 자바스크립트 튜토리얼](https://ko.javascript.info)
+- [부트스트랩 3 한글문서](http://bootstrapk.com/)
+- [Flask 공식 문서](https://flask-docs-kr.readthedocs.io/ko/latest/)
+
+## 비대면 수업 ㅎ
+
+- [WEB1 - HTML & Internet](https://opentutorials.org/course/3084)
+- [WEB2 -파이썬](https://opentutorials.org/course/3256)
+- [파이썬 입문](https://programmers.co.kr/learn/courses/2#curriculum)
+- [입문자를 위한 파이썬 기초 따라잡기](https://www.inflearn.com/course/%ED%8C%8C%EC%9D%B4%EC%8D%AC-%EA%B8%B0%EC%B4%88#)
+- [HTML, CSS, JS, Python 30분 요약강좌](https://www.inflearn.com/course/%EC%A0%9C%EC%A3%BC%EC%BD%94%EB%94%A9-%EC%9B%B9%EA%B0%9C%EB%B0%9C-30%EB%B6%84%EC%9A%94%EC%95%BD#)
+- [유료 -- 파이썬 웹 개발(Flask, SQLAlchemy 이용)](https://www.inflearn.com/course/%ED%8C%8C%EC%9D%B4%EC%8D%AC-%EC%9B%B9%EA%B0%9C%EB%B0%9C-%ED%94%8C%EB%9D%BC%EC%8A%A4%ED%81%AC#)
+
 
 ## [대략 이렇게..?](https://drive.google.com/file/d/1N8PhBY3FYDFEvSJ_C2L9zkOdCj4KLNPY/view)
 
@@ -42,7 +56,7 @@ Javascript 에 대해 알아보고 간단하게 dom 조작을 해봅니다.
 
 7. 부트스트랩(bootstrap) 5으로 화면 만들기
 
-ootstrap 5 에 대해 알아보고 앱 화면을 구현해봅니다.
+[Bootstrap 5](https://v5.getbootstrap.com/) 에 대해 알아보고 앱 화면을 구현해봅니다.
 
 8. 플라스크(flask) 라우트, 모델, 뷰 이해하기
 
@@ -55,3 +69,15 @@ ootstrap 5 에 대해 알아보고 앱 화면을 구현해봅니다.
 10. 누구나 사용할 수 있게 서버에 올려볼까요? (생략가능)
 
 싫으면 말고요...
+
+## 개발 시작
+
+```bash
+# $ vagrant up
+# $ cd /vagrant
+$ pyenv virtualenv flask
+$ poetry shell
+$ poetry install
+$ python app.py
+# open http://localhost:5000
+```

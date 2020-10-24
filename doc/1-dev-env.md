@@ -2,7 +2,7 @@
 
 대부분 윈도우 10을 사용하신다고 해서 모두 우분투 앱을 설치해서 진행하기로 합니다. ㅎ
 개발 환경을 통일해야 같이 진행하면서 쓸데없이 각자 다른 환경에서 발생하는 오류를 줄일 수 있고
-실제 웹서버 환경을 체험해볼 수 있다는 장점이 있어서 이렇게 선택했습니다.
+실제 웹서버 환경을 체험해볼 수 있다는 장점이 있어서 이렇게 결정했습니다.
 
 ## 준비 사항
 
@@ -34,12 +34,15 @@ Windows 설정 > 앱 > ubuntu 검색 > 재설정! (삭제하면 다시 설치해
 
 ### #4 개발 환경 설치하기
 
+윈도우 10에서 우분투 실행 한 후 터미널에서 아래 명령어를 복사 붙이기해서 실행합니다.
+좋아하는 음료를 한 잔 마시며 잠시 기다리면 개발 환경 구성이 될 거에요.
+
 ```bash
-$ curl https://.... | bash
-$ curl -s -S -L https://raw.githubusercontent.com/pyenv/pyenv-installer/master/bin/pyenv-installer | bash
+$ curl -sSL https://raw.githubusercontent.com/ictact-coop/first-python-flask-starter/main/doc/python-dev.sh | bash
 ```
 
 ### 개발 환경 관련 요소들
 
-- pyenv
-- pipenv
+- [pyenv](https://github.com/pyenv/pyenv)
+- [poetry](https://github.com/python-poetry/poetry)
+- [Flask](https://github.com/pallets/flask)
