@@ -20,16 +20,12 @@ echo 'eval "$(pyenv virtualenv-init -)"' >> ~/.bashrc
 . ~/.bashrc
 
 echo "[install python 3.9.0]"
-export PATH="~/.local/bin:~/.pyenv/bin:$PATH"
-echo $PATH
+export PATH="~/.poetry/bin:~/.pyenv/bin:$PATH"
 pyenv install 3.9.0 && pyenv global 3.9.0
 
-echo "[install pipenv]"
-$(pyenv which python) -m pip install --upgrade pip
-$(pyenv which python) -m pip install --user pipx
-$(pyenv which python) -m pipx ensurepath
-. ~/.bashrc
-pipx install pipenv
+echo "[install poetry]"
+curl -sSL https://raw.githubusercontent.com/python-poetry/poetry/master/get-poetry.py | $(pyenv which python) -
 
 echo "[check python install]"
 $(pyenv which python) -V
+sudo apt update && sudo apt upgrade -y && sudo apt autoremove -y
